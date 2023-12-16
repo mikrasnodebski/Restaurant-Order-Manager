@@ -7,5 +7,5 @@ It allows you to create, edit and delete orders, as well as add new items to the
 - App: Next14
 
 ## How to run
-1. database: `docker-compose up --build db`
-2. app: `npm run dev`
+1. database (in root directory): `docker-compose up --build db`
+2. app (in restaurant-order-manager directory): `npm run dev`

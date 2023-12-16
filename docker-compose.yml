@@ -8,5 +8,8 @@ services:
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - "./database-backup/database_ddl.sql:/docker-entrypoint-initdb.d/1.sql"
+      - "./database-backup/menu_items.sql:/docker-entrypoint-initdb.d/2.sql"
     ports:
       - "3306:3306"

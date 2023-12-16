@@ -1,0 +1,12 @@
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (100, 'Schabowy', 'Schabowy z ziemniaczkami', 21.30, 'Dania mięsne');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (101, 'Gołąbki', '4 Gobłąbki', 32.50, 'Dania mięsne');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (102, 'Rosół', 'Rosół z kury', 15.50, 'Zupy');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (103, 'Pomidorowa', 'Pomidorowa', 12.50, 'Zupy');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (104, 'Sernik', 'Sernik z polewą czekoladową', 18.30, 'Desery');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (105, 'Chałwa', 'Deser z chałwy', 18.30, 'Desery');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (106, 'Beza', 'Deser bezowy ze śmietaną', 15.30, 'Desery');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (107, 'Filet z kurczaka', 'Filet z kurczaka z ryżem', 18.30, 'Dania mięsne');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (108, 'Sałatka Grecka', 'Sałatka Grecka', 21.50, 'Sałatki');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (109, 'Sałatka Paryska z Kurczakiem', 'Sałatka Paryska z Kurczakiem na sosie Gyros', 23.90, 'Sałatki');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (110, 'Sałatka Paryska z Tuńczykiem', 'Sałatka Paryska z Tuńczykiem na sosie Gyros', 23.90, 'Sałatki');
+INSERT INTO restaurant.menu_item (id, name, description, price, category) VALUES (111, 'Sałatka Paryska z Jajko Brokół', 'Sałatka Paryska z Jajkiem i Brokółem', 23.90, 'Sałatki');

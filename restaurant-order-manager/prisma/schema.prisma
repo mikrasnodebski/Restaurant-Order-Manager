@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,4 +5,12 @@ generator client {
 datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
+}
+
+model menu_item {
+  id          Int     @id @default(autoincrement()) @db.UnsignedInt
+  name        String  @db.VarChar(30)
+  description String  @db.VarChar(120)
+  price       Decimal @db.Decimal(20, 2)
+  category    String  @db.VarChar(30)
 }

@@ -8,9 +8,10 @@ datasource db {
 }
 
 model menu_item {
-  id          Int     @id @default(autoincrement()) @db.UnsignedInt
-  name        String  @db.VarChar(30)
-  description String  @db.VarChar(120)
-  price       Decimal @db.Decimal(20, 2)
-  category    String  @db.VarChar(30)
+  id          Int      @id @default(autoincrement()) @db.UnsignedInt
+  name        String   @db.VarChar(30)
+  description String   @db.VarChar(120)
+  price       Decimal  @db.Decimal(20, 2)
+  category    String   @db.VarChar(30)
+  deleted     Boolean? @default(false)
 }
